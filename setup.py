@@ -13,7 +13,7 @@ from os import path
 # here = pathlib.Path(__file__).parent.resolve()
 here = path.abspath(path.dirname(__file__))
 
-# Get the long description from the README file
+# Get pip install --upgrade setuptools wheelthe long description from the README file
 # with open("pyalgorithms/README.md", "r") as f:
 #     long_description = f.read()
 
