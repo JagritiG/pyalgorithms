@@ -13,7 +13,7 @@ Installation:
 --------------------------------------------------------------------------------------------------
 Run the following command in your terminal to install pyalgorithms
 
-pip3 install pyalgorithms
+pip install -i https://test.pypi.org/simple/ pyalgorithms
 
 Or you can download the sourcecode and install the package using
 
