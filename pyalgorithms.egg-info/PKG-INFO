@@ -42,7 +42,7 @@ Description: Pyalgorithms - An Algorithmic Data Analysis Library
         
         
 Platform: UNKNOWN
-Classifier: Intended Audience :: Developer
+Classifier: Intended Audience :: Developers
 Classifier: Topic :: Software Development :: Build Tools
 Classifier: License :: OSI Approved :: MIT License
 Classifier: Programming Language :: Python :: 3.7
