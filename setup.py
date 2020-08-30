@@ -22,7 +22,7 @@ setuptools.setup(
     version="0.0.1",
     description="An algorithmic data analysis library in python",
     long_description=open('README.md').read(),
-    long_description_content_type="markdown",
+    # long_description_content_type="markdown",
 
     # Author details
     author="Jagriti Goswami",
