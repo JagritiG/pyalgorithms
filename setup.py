@@ -38,7 +38,7 @@ setuptools.setup(
     packages=setuptools.find_packages(),
     classifiers=[
         # Indicate who your project is intended for
-        "Intended Audience :: Developer",
+        "Intended Audience :: Developers",
         "Topic :: Software Development :: Build Tools",
 
         # Pick your license as you wish (should match "license" above)
