@@ -8,18 +8,20 @@ To get a listing of available commands, run python setup.py --help-commands.
 """
 import setuptools
 import pathlib
+from os import path
 
-here = pathlib.Path(__file__).parent.resolve()
+# here = pathlib.Path(__file__).parent.resolve()
+here = path.abspath(path.dirname(__file__))
 
 # Get the long description from the README file
-with open("here/README.md", "r") as f:
-    long_description = f.read()
+# with open("pyalgorithms/README.md", "r") as f:
+#     long_description = f.read()
 
 setuptools.setup(
     name="pyalgorithms",
     version="0.0.1",
     description="An algorithmic data analysis library in python",
-    long_description=long_description,
+    long_description=open('README.md').read(),
     long_description_content_type="markdown",
 
     # Author details
@@ -43,8 +45,8 @@ setuptools.setup(
         "License :: OSI Approved :: MIT License",
 
         # Specify the Python versions you support here.
-        "Programming Language :: Python :: 3",
+        "Programming Language :: Python :: 3.7",
     ],
-    python_requires='>=3.6',
+    # python_requires='>=3',
 )
 
