@@ -39,7 +39,7 @@ setuptools.setup(
     classifiers=[
         # Indicate who your project is intended for
         "Intended Audience :: Software Developer",
-        "Topic :: Software Development :: Build Tools",
+        "Topic :: Development :: Build Tools",
 
         # Pick your license as you wish (should match "license" above)
         "License :: OSI Approved :: MIT License",
