@@ -1,0 +1,11 @@
+"""
+A MANIFEST.in is needed when you need to package additional files that are not automatically included in a source distribution.
+"""
+# Include the README
+include *.md
+
+# Include the license file
+include LICENSE.txt
+
+# Include the data files
+recursive-include data *
