@@ -38,8 +38,8 @@ setuptools.setup(
     packages=setuptools.find_packages(),
     classifiers=[
         # Indicate who your project is intended for
-        "Intended Audience :: Software Developer",
-        "Topic :: Development :: Build Tools",
+        "Intended Audience :: Developer",
+        "Topic :: Software Development :: Build Tools",
 
         # Pick your license as you wish (should match "license" above)
         "License :: OSI Approved :: MIT License",
