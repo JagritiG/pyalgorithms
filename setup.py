@@ -7,19 +7,13 @@ It’s the command line interface for running various commands that relate to pa
 To get a listing of available commands, run python setup.py --help-commands.
 """
 import setuptools
-import pathlib
 from os import path
 
-# here = pathlib.Path(__file__).parent.resolve()
 here = path.abspath(path.dirname(__file__))
-
-# Get pip install --upgrade setuptools wheelthe long description from the README file
-# with open("pyalgorithms/README.md", "r") as f:
-#     long_description = f.read()
 
 setuptools.setup(
     name="pyalgorithms",
-    version="0.0.1",
+    version="0.0.2",
     description="An algorithmic data analysis library in python",
     long_description=open('README.md').read(),
     # long_description_content_type="markdown",
