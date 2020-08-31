@@ -8,3 +8,7 @@ pyalgorithms.egg-info/PKG-INFO
 pyalgorithms.egg-info/SOURCES.txt
 pyalgorithms.egg-info/dependency_links.txt
 pyalgorithms.egg-info/top_level.txt
+pyalgorithms/searching/__init__.py
+pyalgorithms/searching/binary_search.py
+tests/__init__.py
+tests/test_searching.py
